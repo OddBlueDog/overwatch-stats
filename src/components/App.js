@@ -44,6 +44,9 @@ class App extends React.Component {
           loading={this.state.loading}
           errorOccured={this.state.axiosErrorOccured}
         />
+        <a href="https://github.com/OddBlueDog/overwatch-stats" target="_blank" class="btn btn-primary mt-5">
+          View on Github
+        </a>
       </div>
     );
   }
